@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container-search{
+   padding: 50px 0 180px;
+}
+
+.container-search form{
+   width: 50%;
+}
+
+.container-search form .input-form input{
+   display: inline; 
+   width: 78%;
+}
+
+.container-search form .input-form button{
+   display: inline; 
+   width: 18%; 
+   background-color: #524EEE; 
+   color: white;
+   border: none;
+}
+
+.container-search form span.text-white {
+   width: 15%;
+}   
+.container-search form input.input-field{
+   width: 30%;
+}
+
+
+.bg-silver{
+   background-color: rgb(245, 245, 245);
+}
+
+.rounded-24{
+   border-radius: 5px;
+}
+
+section.list-book {
+   margin-top: -100px;
+}
+
+section.list-book .col-6 {
+   flex: 0 0 49% !important;
+}
+
+section.list-book .col-6.shadow-sm {
+   box-shadow: 0 .2rem .5rem rgba(0,0,0,.15)!important;
+}
+
+section.list-book .img-fluid {
+   width: 100%;
+   max-height: 200px;
+   object-fit: cover;
+}
+
+section .btn-detail{
+   background-color: #524eee;
+}
+
+section .btn-detail:hover, .container-search button.form-control:hover {
+   --tw-shadow: inset 0 0px 25px 0 rgba(20, 20, 50, 0.7);
+   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+}
+
+@media (max-width: 992px) {
+   .container-search form{
+      width: 94%;
+   }
+
+   .container-search form .input-form input{
+      width: 70%;
+   }
+
+   .container-search form .input-form button{
+      width: 28%; 
+   }
+/* 
+   .container-search form span.text-white {
+      width: 100%;
+      display: block;
+   }
+
+   .container-search form input.input-field{
+   } */
+
+
+}
